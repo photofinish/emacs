@@ -13,5 +13,6 @@
 
 (require-package 'ace-pinyin)
 
+(global-set-key (kbd "M-j") 'ace-jump-word-mode)
 
 (provide 'init-ace-jump)
