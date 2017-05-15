@@ -11,7 +11,7 @@
 ;(set-variable 'ycmd-global-config "/home/.ycm_extra_conf.py")
 
 
-(set-variable 'ycmd-server-command '("python" "/home/ruby/ycmd/ycmd/"))
+(set-variable 'ycmd-server-command '("python" "/usr/src/ycmd/ycmd/"))
 ;;(set-variable 'ycmd-global-config "/home/ryby/ycmd/cpp/ycm/.ycm_extra_conf.py")
 ;;(set-variable 'ycmd-global-config "/home/ruby/ycmd/examples/.ycm_extra_conf.py")
 

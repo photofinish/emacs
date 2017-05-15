@@ -6,5 +6,9 @@
 			     (message "set web-mode-content-type %s" web-mode-content-type)))
 
 (add-to-list 'ycmd-file-type-map '(react-mode . ("javascript")))
-(add-to-list 'auto-mode-alist '("\\.(js|jsx)\\'" . react-mode))
+
+(add-to-list 'auto-mode-alist '("\\.js\\'" . react-mode))
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . react-mode))
+(add-to-list 'auto-mode-alist '("\\.es6\\'" . react-mode))
+
 (provide 'init-react)

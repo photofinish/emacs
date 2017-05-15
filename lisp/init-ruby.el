@@ -2,5 +2,4 @@
 
 (projectile-rails-global-mode)
 
-
 (provide 'init-ruby)
